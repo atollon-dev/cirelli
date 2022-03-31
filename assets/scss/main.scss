@@ -60,13 +60,12 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 40px 100px 60px;
     z-index: 1000;
     align-items: center;
     text-align: center;
 
     p {
-      font-weight: 700;
       color: #fff;
       font-size: rem(20px);
       margin-bottom: 40px;
@@ -81,7 +80,7 @@
 .section-purpose {
 
   @include media-breakpoint-up(xl) {
-    height: 100vh;
+    padding: 250px 0 250px;
   }
 
   .container {
@@ -90,6 +89,7 @@
 
   &__heading {
     h3 {
+      letter-spacing: 0px;
       margin-top: 5px;
       color: $green;
       margin-bottom: 30px;
@@ -103,7 +103,7 @@
   &__content {
     p {
       line-height: 60px;
-      margin-bottom: 30px;
+      margin-bottom: 140px;
       color: $green;
       font-weight: 300;
       font-size: rem(50px);
@@ -140,13 +140,22 @@
   }
 
   &__content {
+
+    @include media-breakpoint-up(xl) {
+      margin-left: 50px;
+    }
+
     h4 {
+      font-size: rem(23px);
+      letter-spacing: 0;
       font-weight: 500;
       color: $green;
       margin-bottom: 0;
     }
 
     h5 {
+      font-size: rem(23px);
+      letter-spacing: 0;
       font-weight: 300;
       margin-bottom: 30px;
 
@@ -194,6 +203,7 @@
       }
 
       h5 {
+        letter-spacing: 0;
         font-size: rem(16px);
         color: #fff;
       }
@@ -209,6 +219,7 @@
       }
 
       label {
+        letter-spacing: 0;
         color: #fff;
         margin-bottom: 3px;
         display: block;
@@ -240,10 +251,11 @@
       }
 
       a {
+        font-weight: 500;
+        letter-spacing: 0;
         margin-bottom: 3px;
         line-height: 1;
         font-size: rem(14px);
-        font-weight: 300;
         text-decoration: none;
         color: #fff;
         opacity: 0.5;

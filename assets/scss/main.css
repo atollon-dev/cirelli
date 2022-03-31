@@ -2393,8 +2393,8 @@ iframe {
 .btn {
   width: max-content;
   font-size: 0.75rem;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   white-space: nowrap;
   padding: 0 20px;
   text-decoration: none !important;
@@ -2712,13 +2712,12 @@ iframe {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 40px 100px 60px;
   z-index: 1000;
   align-items: center;
   text-align: center;
 }
 .section-banner__control p {
-  font-weight: 700;
   color: #fff;
   font-size: 1.25rem;
   margin-bottom: 40px;
@@ -2729,13 +2728,14 @@ iframe {
 
 @media (min-width: 1200px) {
   .section-purpose {
-    height: 100vh;
+    padding: 250px 0 250px;
   }
 }
 .section-purpose .container {
   max-width: 1340px;
 }
 .section-purpose__heading h3 {
+  letter-spacing: 0px;
   margin-top: 5px;
   color: #233646;
   margin-bottom: 30px;
@@ -2747,7 +2747,7 @@ iframe {
 }
 .section-purpose__content p {
   line-height: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 140px;
   color: #233646;
   font-weight: 300;
   font-size: 3.125rem;
@@ -2782,12 +2782,21 @@ iframe {
     width: 100%;
   }
 }
+@media (min-width: 1200px) {
+  .section-about__content {
+    margin-left: 50px;
+  }
+}
 .section-about__content h4 {
+  font-size: 1.4375rem;
+  letter-spacing: 0;
   font-weight: 500;
   color: #233646;
   margin-bottom: 0;
 }
 .section-about__content h5 {
+  font-size: 1.4375rem;
+  letter-spacing: 0;
   font-weight: 300;
   margin-bottom: 30px;
 }
@@ -2836,6 +2845,7 @@ iframe {
   }
 }
 .footer__wrapper-email h5 {
+  letter-spacing: 0;
   font-size: 1rem;
   color: #fff;
 }
@@ -2850,6 +2860,7 @@ iframe {
   }
 }
 .footer__wrapper-subscribe label {
+  letter-spacing: 0;
   color: #fff;
   margin-bottom: 3px;
   display: block;
@@ -2878,10 +2889,11 @@ iframe {
   }
 }
 .footer__wrapper-socials a {
+  font-weight: 500;
+  letter-spacing: 0;
   margin-bottom: 3px;
   line-height: 1;
   font-size: 0.875rem;
-  font-weight: 300;
   text-decoration: none;
   color: #fff;
   opacity: 0.5;
