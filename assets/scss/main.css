@@ -2746,6 +2746,7 @@ iframe {
   }
 }
 .section-purpose__content p {
+  max-width: 750px;
   line-height: 60px;
   margin-bottom: 140px;
   color: #233646;
