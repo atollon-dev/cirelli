@@ -2695,7 +2695,7 @@ iframe {
 }
 @media (min-width: 992px) {
   .section-banner__header img {
-    height: 30px;
+    height: 20px;
   }
 }
 .section-banner video {
@@ -2747,11 +2747,11 @@ iframe {
 }
 .section-purpose__content p {
   max-width: 750px;
-  line-height: 60px;
+  line-height: 40px;
   margin-bottom: 140px;
   color: #233646;
   font-weight: 300;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
 }
 
 .section-image {
