@@ -2772,6 +2772,7 @@ iframe {
 }
 .section-about__image {
   margin-bottom: 30px;
+  max-width: 85%;
 }
 @media (min-width: 992px) {
   .section-about__image {
