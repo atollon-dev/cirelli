@@ -2751,7 +2751,7 @@ iframe {
   margin-bottom: 140px;
   color: #233646;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 1.25rem;
 }
 
 .section-image {
@@ -2772,7 +2772,7 @@ iframe {
 }
 .section-about__image {
   margin-bottom: 30px;
-  max-width: 85%;
+  max-width: 78%;
 }
 @media (min-width: 992px) {
   .section-about__image {
