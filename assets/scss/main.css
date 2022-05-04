@@ -2699,7 +2699,6 @@ iframe {
   }
 }
 .section-banner video {
-  filter: grayscale(100%);
   position: absolute;
   top: 0;
   left: 0;
